@@ -1,0 +1,110 @@
+@import "https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap";
+
+body{
+    font-family: 'Alike Angular', serif;
+}
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+max-width: 600px;
+margin: auto;
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+    padding: 0.5rem 1rem;
+
+}
+
+.primary-link{
+    background-color:black;
+    (--primary-color);
+    border-radius:2rem;
+    color:white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+
+}
+.secondary-link{
+    color:black;
+    border-radius:2rem;
+    border:1px black;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+
+  
+
+}
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display:inline;
+    padding: 0rem 1rem;
+}
+.navigation{
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 0.25rem;
+    border-bottom-left-radius: 1.2rem;
+}
+.navigation.link{
+    color:white;
+}
+.navigation .nav-brand{
+    font-weight:bold;
+    font-size: 1.12rem;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
+.hero .hero-img{
+    max-width: 300px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.hero .hero-heading{
+    color:grey;
+}
+.section {
+    text-align: center;
+    background-color: rgb(177, 165, 165);
+    padding: 3rem;
+}
+.social-links{
+    color: black;
+    
+}
+.footer{
+    background-color: rgb(177, 165, 165);
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.footer .link{
+    color: black;
+}
+.footer .list-non-bullet{
+    padding-inline-start: 0px;
+}
+.ow{
+    background-color: white;
+    text-align: center;
+    padding: 3rem;
+}
+.team{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+     
+}
